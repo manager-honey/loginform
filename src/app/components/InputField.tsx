@@ -73,7 +73,7 @@ export const InputField: React.FC<InputFieldProps> = ({
           {/* Input field */}
           <input
             style={{ borderColor: color }}
-            className="border-b-2 pl-7 p-1 focus-visible:outline-none"
+            className="border-b-2 pl-7 p-1 focus-visible:outline-none  pr-7"
             tabIndex={1}
             onChange={onChange}
             type={inputType(type)}
